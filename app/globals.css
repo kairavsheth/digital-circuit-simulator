@@ -28,6 +28,14 @@ body {
 
 @layer utilities {
   .text-balance {
+    /*noinspection CssInvalidPropertyValue*/
     text-wrap: balance;
   }
 }
+.react-flow__handle {
+  position: relative;
+  top: auto;
+  transform: none;
+  background: #224466;
+}
+
